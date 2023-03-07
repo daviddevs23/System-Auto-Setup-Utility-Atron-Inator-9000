@@ -1,0 +1,10 @@
+{
+    "packageManager": "yay",
+    "preRunCommands": {
+        "commands": ["git clone yay", 
+                     "cd yay",
+                     "makepkg -si"],
+        "install": ["neovim", "discord"]
+    },
+    "configDir": "system"
+}
