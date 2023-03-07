@@ -3,7 +3,6 @@ import json
 # Reads in json and will return dict
 def readJson(file):
     data = {}
-
     try:
         with open(file) as dataFile:
             data = json.load(dataFile)

@@ -1,6 +1,6 @@
 {
     "packageManager": "yay",
-    "preRunCommands": {
+    "runCommands": {
         "commands": ["git clone yay", 
                      "cd yay",
                      "makepkg -si"],
